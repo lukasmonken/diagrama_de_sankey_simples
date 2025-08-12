@@ -1,0 +1,12 @@
+# básico
+plotly>=5.0.0
+pandas>=1.5.0
+
+# leitura de arquivos (opcionais, úteis para extrair tabelas de PDF/Excel)
+openpyxl>=3.0.0        # ler/escrever .xlsx
+pdfplumber>=0.7.6      # extrair texto/tabelas de PDFs (sem Java)
+tabula-py>=2.7.0       # extrair tabelas de PDFs (requer Java)
+camelot-py>=0.10.1     # alternativa (requer ghostscript)
+
+# opcional para deploy/interatividade
+streamlit>=1.20.0
